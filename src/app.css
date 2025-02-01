@@ -1,0 +1,137 @@
+@import url("https://fonts.cdnfonts.com/css/gemini");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+main {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.recent-div-open {
+	width: 31%;
+	padding: 2vh;
+	height: 100vh;
+	background-color: #232727;
+	color: #fff;
+	transition: width 0.4s, span 1s;
+}
+.recent-div-open .menu {
+	position: absolute;
+	left: 2.5vh;
+	top: 2.8vh;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 7.3vh;
+	width: 7.3vh;
+	border-radius: 50%;
+	cursor: pointer;
+	opacity: 0.7;
+}
+.recent-div-open .menu:hover {
+	background-color: #2a3134;
+}
+.recent-div-open i {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 5vh;
+	width: 6vh;
+	font-size: 3.2vh;
+	font-weight: 500;
+}
+
+.recent-div-open .down-btn {
+	position: absolute;
+	left: 3vh;
+	/* top: 2.8vh; */
+	bottom: 11vh;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	align-items: start;
+	justify-content: center;
+}
+.recent-div-open .down-btn div {
+	height: 6.4vh;
+	width: 20vw;
+	/* padding: 1vh 5vh 1vh 1vh; */
+	cursor: pointer;
+}
+.recent-div-open .down-btn div:hover {
+	border-radius: 50px;
+	background-color: #2a3134;
+}
+.recent-div-open .down-btn span {
+	height: 7.5vh;
+	width: 10vw;
+	margin-left: 1.2vw;
+	/* padding-bottom: 6vh; */
+	display: inline-flex;
+	align-items: center;
+	justify-content: start;
+	opacity: 0.7;
+}
+.recent-div-open .down-btn i {
+	font-size: 3vh;
+	font-weight: 1000;
+	height: 6.4vh;
+	width: 6.5vh;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.7;
+}
+/* .recent-div-open .down-btn i:hover {
+	border-radius: 50%;
+	background-color: #2a3134;
+} */
+
+/* .main-div-close {
+	width: 75.2%;
+} */
+.recent-div-open .new-chat {
+	position: absolute;
+	top: 18vh;
+	left: 2.5vh;
+	border-radius: 20px;
+	height: 7vh;
+	width: 10vw;
+	display: inline-flex;
+	align-items: center;
+	background-color: #1d1d1d;
+	opacity: 0.8;
+	padding: 0.4vh;
+	cursor: pointer;
+}
+.recent-div-open .new-chat span {
+	opacity: 0.5;
+	font-size: 2.4vh;
+	font-weight: 400;
+	margin-left: 2.2vh;
+}
+.recent-div-open .new-chat i {
+	background-color: #1f1e1e;
+	border-radius: 50%;
+	font-size: 4.8vh;
+	font-weight: 1800;
+	padding: 1vh;
+	opacity: 0.5;
+}
+
+.recent-div-open .recent-list {
+	position: absolute;
+	top: 32vh;
+	left: 4vh;
+}
+.recent-div-open .recent-list span {
+	font-size: 2.4vh;
+	font-weight: 400;
+	opacity: 0.9;
+}
